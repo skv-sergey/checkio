@@ -1,5 +1,5 @@
-text = "hello world hi there"
+text = "muchlonger"
 
-list = text.split(" ")
+text.
 
-print(list[0])
+print(text.count)
