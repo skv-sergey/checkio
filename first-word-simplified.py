@@ -3,7 +3,9 @@ def first_word(text: str) -> str:
         returns the first word in a given text.
     """
     # your code here
-    return text[0:2]
+    list = text.split(" ")
+
+    return list[0]
 
 
 if __name__ == '__main__':
@@ -15,3 +17,11 @@ if __name__ == '__main__':
     assert first_word("a word") == "a"
     assert first_word("hi") == "hi"
     print("Coding complete? Click 'Check' to earn cool rewards!")
+    """
+
+    def first_word_2(text):
+    index = text.find(" ")
+    return text[:index] if index != -1 else text
+
+
+    """
